@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://example.com/"
-title: "Hextra"
+title: "读写障碍百科"
 
 enableRobotsTXT: true
 # Parse Git commit
@@ -17,12 +17,12 @@ outputs:
   page: [html]
   section: [html, rss]
 
-defaultContentLanguage: en
+defaultContentLanguage: zh-cn
 languages:
   en:
     languageName: English
     weight: 1
-    title: Hextra
+    title: Dyslexia Wiki
   # ja:
   #   languageName: 日本語
   #   languageCode: ja-JP
@@ -36,20 +36,20 @@ languages:
     languageName: 简体中文
     languageCode: zh-CN
     weight: 4
-    title: Hextra
+    title: 读写障碍百科
     params:
       banner:
         message: |
-          Hextra **v0.11** 发布啦！🎉 查看[更新内容]({{% ref "blog/v0.11" %}})
+          Hextra **v0.11** 发布啦！🎉 查看[更新内容](/blog/v0.11)
   zh-tw:
     languageName: 繁体中文
     languageCode: zh-TW
     weight: 5
-    title: Hextra
+    title: 读写障碍百科
     params:
       banner:
         message: |
-          Hextra **v0.11** 發布啦！🎉 查看[更新內容]({{% ref "blog/v0.11" %}})
+          Hextra **v0.11** 發布啦！🎉 查看[更新內容](/blog/v0.11)
 
 module:
   hugoVersion:
@@ -155,7 +155,7 @@ params:
   banner:
     key: 'announcement-v0.11'
     message: |
-      Hextra **v0.11** is here! 🎉 Discover [what's new]({{% ref "blog/v0.11" %}})
+      Hextra **v0.11** is here! 🎉 Discover [what's new](/blog/v0.11)
 
   navbar:
     displayTitle: true

@@ -23,16 +23,6 @@ languages:
     languageName: English
     weight: 1
     title: Hextra
-  fa:
-    languageName: فارسی
-    languageCode: fa
-    languageDirection: rtl
-    weight: 2
-    title: هگزترا
-    params:
-      banner:
-        message: |
-          هگزترا **v0.11** منتشر شد! 🎉 [تازه‌ها را ببینید]({{% ref "blog/v0.11" %}})
   ja:
     languageName: 日本語
     languageCode: ja-JP
@@ -81,6 +71,14 @@ menu:
     - identifier: documentation
       name: Documentation
       pageRef: /docs
+      weight: 1
+    - identifier: chinese
+      name: 中文读写障碍
+      pageRef: /chinese
+      weight: 1
+    - identifier: english
+      name: 英文读写障碍
+      pageRef: /english
       weight: 1
     - identifier: versions
       name: Versions

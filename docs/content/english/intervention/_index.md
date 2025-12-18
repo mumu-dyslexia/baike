@@ -1,8 +1,11 @@
 ---
-linkTitle: 高级
-title: 高级主题
-prev: /english/guide/shortcodes/tabs
-next: /english/advanced/multi-language
+linkTitle: 干预
+title: intervention
+weight: 3
+prev: /docs/guide/shortcodes/tabs
+next: /docs/advanced/multi-language
+sidebar:
+  open: true
 ---
 
 This section covers some advanced topics of the theme.

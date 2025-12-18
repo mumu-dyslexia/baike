@@ -23,15 +23,6 @@ languages:
     languageName: English
     weight: 1
     title: Hextra
-  ja:
-    languageName: 日本語
-    languageCode: ja-JP
-    weight: 3
-    title: Hextra
-    params:
-      banner:
-        message: |
-          Hextra **v0.11** がリリースされました！🎉 [新着情報はこちら]({{% ref "blog/v0.11" %}})
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN

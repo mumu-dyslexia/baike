@@ -1,5 +1,5 @@
 ---
-linkTitle: "chinese"
+linkTitle: "中文读写障碍"
 title: 中文读写障碍
 type: docs
 cascade:

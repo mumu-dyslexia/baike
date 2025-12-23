@@ -1,6 +1,6 @@
 ---
-linkTitle: "chinese"
-title: 中文读写障碍
+linkTitle: "English"
+title: English
 type: docs
 cascade:
   type: docs

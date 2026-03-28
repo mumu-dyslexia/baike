@@ -11,5 +11,7 @@ sidebar:
 <!--more-->
 
 {{< cards >}}
+{{< card link="huang-zhijun" title="黄志军" subtitle="华东师范大学" >}}
+{{< card link="zhang-changxin" title="张畅芯" subtitle="华东师范大学" >}}
 {{< card link="fudan-childrens-hospital" title="复旦大学附属儿科医院" subtitle="发育行为儿科" >}}
 {{< /cards >}}

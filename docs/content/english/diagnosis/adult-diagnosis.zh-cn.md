@@ -38,4 +38,4 @@ Shaywitz 特别关注那些直到中年才被识别为读写障碍的女性。�
 
 ---
 
-*基于 Sally Shaywitz 博士《拆掉阅读的墙》（2020年版）*
+*基于 Sally Shaywitz 博士《Overcoming Dyslexia》*

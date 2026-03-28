@@ -50,4 +50,4 @@ SQ3R 将被动的词语扫读转变为主动处理，提升理解力和记忆保
 
 ---
 
-*基于 Sally Shaywitz 博士《拆掉阅读的墙》（2020年版）*
+*基于 Sally Shaywitz 博士《Overcoming Dyslexia》*

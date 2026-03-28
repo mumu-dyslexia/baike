@@ -1,5 +1,5 @@
 ---
-title: "Historical Roots of Dyslexia"
+title: "History of English Dyslexia"
 weight: 2
 ---
 

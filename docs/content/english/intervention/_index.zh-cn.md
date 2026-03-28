@@ -12,6 +12,6 @@ weight: 3
 {{< card link="phonemic-awareness" title="音素意识" icon="volume-up" subtitle="五大核心要素与循序渐进的训练步骤" >}}
 {{< card link="phonics" title="自然拼读法" icon="book-open" subtitle="系统性显性拼读教学、可解码文本与视觉词汇" >}}
 {{< card link="fluency-comprehension" title="阅读流畅性与理解" icon="refresh" subtitle="引导式口头阅读与词汇教学" >}}
-{{< card link="structured-literacy" title="结构化识字项目" icon="academic-cap" subtitle="Wilson、奥顿-吉林汉姆法与循证项目特征" >}}
+{{< card link="structured-literacy" title="结构化教学" icon="academic-cap" subtitle="Wilson、Orton-Gillingham法与循证项目特征" >}}
 {{< card link="emotional-support" title="保护孩子的自尊心" icon="heart" subtitle="与学业并列的最重要育儿目标" >}}
 {{< /cards >}}

@@ -5,7 +5,10 @@
       "Bash(python3:*)",
       "Bash(grep:*)",
       "WebFetch(domain:cdn.dribbble.com)",
-      "Bash(hugo build:*)"
+      "Bash(hugo build:*)",
+      "Bash(xargs sed:*)",
+      "WebFetch(domain:faculty.ecnu.edu.cn)",
+      "Bash(curl:*)"
     ]
   }
 }

@@ -50,4 +50,4 @@ weight: 3
 
 ---
 
-*基于 Sally Shaywitz 博士《拆掉阅读的墙》（2020年版）*
+*基于 Sally Shaywitz 博士《Overcoming Dyslexia》*

@@ -1,5 +1,5 @@
 ---
-title: "读写障碍的历史"
+title: "英文读写障碍历史"
 weight: 2
 ---
 
@@ -17,7 +17,7 @@ weight: 2
 
 20世纪20至30年代，美国神经科医生 Samuel Torrey Orton 提出了最具影响力的早期读写障碍理论。Orton 注意到许多阅读困难的儿童会将字母倒写（b/d、p/q）或反向阅读单词。他认为这一现象源于大脑半球优势不完整——某一半球未能充分掌控语言功能。他将这种病症命名为"strephosymbolia"（符号扭曲）。
 
-尽管 Orton 关于大脑半球优势的具体理论后来被修正，但他的实践贡献却经久长存。他与教育学家 Anna Gillingham 合作，开发了一套多感官、以自然拼读法为基础的教学方法——奥顿-吉林汉姆法（Orton-Gillingham Method）——至今仍是结构化识字教学的重要基础。
+尽管 Orton 关于大脑半球优势的具体理论后来被修正，但他的实践贡献却经久长存。他与教育学家 Anna Gillingham 合作，开发了一套多感官、以自然拼读法为基础的教学方法——Orton-Gillingham 教学法——至今仍是结构化识字教学的重要基础。
 
 ## 音韵学革命
 
@@ -29,4 +29,4 @@ Sally Shaywitz 在耶鲁大学的研究直接建立在这一音韵学基础之�
 
 ---
 
-_基于 Sally Shaywitz 博士《拆掉阅读的墙》（2020年版）_
+_基于 Sally Shaywitz 博士《Overcoming Dyslexia》_

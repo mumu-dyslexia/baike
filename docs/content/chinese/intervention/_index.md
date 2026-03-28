@@ -1,19 +1,17 @@
 ---
 linkTitle: 干预
-title: intervention
-weight: 3
-prev: /docs/guide/shortcodes/tabs
-next: /docs/advanced/multi-language
+title: 干预
+weight: 7
 sidebar:
   open: true
 ---
 
-This section covers some advanced topics of the theme.
+针对中文阅读障碍的干预应结合儿童的具体困难，综合运用多种循证方法，并在家庭和学校环境中持续实践。
 
 <!--more-->
 
 {{< cards >}}
-{{< card link="multi-language" title="Multi-language" icon="translate" >}}
-{{< card link="customization" title="Customization" icon="pencil" >}}
-{{< card link="comments" title="Comments System" icon="chat-alt" >}}
+{{< card link="字源与字理" title="字源和字理识字" icon="book-open" subtitle="利用汉字构造规律辅助识字" >}}
+{{< card link="parent-reading" title="家长指导下的朗读" icon="user-group" subtitle="亲子共读与朗读练习" >}}
+{{< card link="reading-comprehension" title="阅读理解策略" icon="light-bulb" subtitle="提升文章理解与推断能力" >}}
 {{< /cards >}}

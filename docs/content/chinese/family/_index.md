@@ -1,19 +1,15 @@
 ---
-linkTitle: 家庭支持
-title: family-support
-weight: 4
-prev: /docs/guide/shortcodes/tabs
-next: /docs/advanced/multi-language
+linkTitle: 家校沟通
+title: 家校沟通
+weight: 6
 sidebar:
   open: true
 ---
 
-This section covers some advanced topics of the theme.
+有效的家校沟通是支持阅读障碍儿童的重要环节。家长与教师保持信息同步，可以避免不必要的挫败感，共同制定适合儿童的支持策略。
 
 <!--more-->
 
 {{< cards >}}
-{{< card link="multi-language" title="Multi-language" icon="translate" >}}
-{{< card link="customization" title="Customization" icon="pencil" >}}
-{{< card link="comments" title="Comments System" icon="chat-alt" >}}
+{{< card link="homework-mismatch" title="减少不匹配作业" icon="clipboard-check" subtitle="避免超出儿童能力的书写要求" >}}
 {{< /cards >}}

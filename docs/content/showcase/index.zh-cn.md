@@ -1,5 +1,5 @@
 ---
-title: 成果展示
+title: 案例分享
 description: "由 Hextra 驱动的开源网站和项目。"
 toc: false
 layout: wide

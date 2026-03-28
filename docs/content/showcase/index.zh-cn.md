@@ -1,5 +1,5 @@
 ---
-title: 项目展示
+title: 成果展示
 description: "由 Hextra 驱动的开源网站和项目。"
 toc: false
 layout: wide

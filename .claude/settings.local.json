@@ -4,7 +4,8 @@
       "Bash(\\\\ python3:*)",
       "Bash(python3:*)",
       "Bash(grep:*)",
-      "WebFetch(domain:cdn.dribbble.com)"
+      "WebFetch(domain:cdn.dribbble.com)",
+      "Bash(hugo build:*)"
     ]
   }
 }

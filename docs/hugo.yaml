@@ -71,10 +71,6 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
-      weight: 1
     - identifier: chinese
       name: 中文读写障碍
       pageRef: /chinese

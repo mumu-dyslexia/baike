@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce7f3"/>
+      <stop offset="100%" style="stop-color:#fbcfe8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="680" cy="120" r="130" fill="#f9a8d4" opacity="0.3"/>
+  <circle cx="120" cy="480" r="100" fill="#ec4899" opacity="0.15"/>
+  <circle cx="720" cy="500" r="70" fill="#f472b6" opacity="0.2"/>
+  <!-- Heart -->
+  <path d="M400 260 C400 260 340 210 320 250 C300 290 340 320 400 360 C460 320 500 290 480 250 C460 210 400 260 400 260Z" fill="#ec4899" opacity="0.7"/>
+  <!-- Two figures (parent + child) -->
+  <circle cx="350" cy="420" r="22" fill="#be185d"/>
+  <line x1="350" y1="442" x2="350" y2="490" stroke="#be185d" stroke-width="5" stroke-linecap="round"/>
+  <line x1="350" y1="458" x2="325" y2="478" stroke="#be185d" stroke-width="4" stroke-linecap="round"/>
+  <line x1="350" y1="458" x2="375" y2="478" stroke="#be185d" stroke-width="4" stroke-linecap="round"/>
+  <line x1="350" y1="490" x2="332" y2="518" stroke="#be185d" stroke-width="4" stroke-linecap="round"/>
+  <line x1="350" y1="490" x2="368" y2="518" stroke="#be185d" stroke-width="4" stroke-linecap="round"/>
+  <!-- Child figure smaller -->
+  <circle cx="450" cy="430" r="17" fill="#f472b6"/>
+  <line x1="450" y1="447" x2="450" y2="487" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+  <line x1="450" y1="460" x2="430" y2="476" stroke="#f472b6" stroke-width="3" stroke-linecap="round"/>
+  <line x1="450" y1="460" x2="470" y2="476" stroke="#f472b6" stroke-width="3" stroke-linecap="round"/>
+  <line x1="450" y1="487" x2="435" y2="512" stroke="#f472b6" stroke-width="3" stroke-linecap="round"/>
+  <line x1="450" y1="487" x2="465" y2="512" stroke="#f472b6" stroke-width="3" stroke-linecap="round"/>
+  <!-- Connecting hands -->
+  <line x1="372" y1="465" x2="433" y2="460" stroke="#f9a8d4" stroke-width="4" stroke-linecap="round"/>
+</svg>

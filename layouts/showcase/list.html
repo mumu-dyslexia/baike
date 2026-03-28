@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="hx:bg-gray-50 hx:dark:bg-neutral-900 hx:min-h-screen">
+<div class="hx:mx-auto hextra-max-page-width hx:px-6 hx:md:px-12 hx:py-12">
+
+  {{ if .Title }}
+  <h1 class="hx:text-4xl hx:font-bold hx:mb-2 hx:text-gray-900 hx:dark:text-gray-100">{{ .Title }}</h1>
+  {{ end }}
+  {{ with .Description }}
+  <p class="hx:text-gray-500 hx:dark:text-gray-400 hx:mb-10">{{ . }}</p>
+  {{ end }}
+
+  <div class="hx:grid hx:grid-cols-1 hx:sm:grid-cols-2 hx:lg:grid-cols-3 hx:xl:grid-cols-4" style="gap: 2rem;">
+    {{- range .Pages.ByDate.Reverse }}
+    <a href="{{ .RelPermalink }}" class="hx:group hx:flex hx:flex-col hx:bg-white hx:dark:bg-neutral-800 hx:rounded-3xl hx:overflow-hidden hx:shadow-sm hx:hover:shadow-md hx:transition-shadow hx:duration-300">
+
+      <!-- Image: full width, 16:9 -->
+      <div class="hx:w-full hx:overflow-hidden hx:bg-gray-100 hx:dark:bg-neutral-700" style="aspect-ratio:16/9;">
+        {{- with .Params.cover }}
+        <img src="{{ . }}" alt="{{ $.Title }}" class="hx:w-full hx:h-full hx:object-cover"/>
+        {{- else }}
+        <div class="hx:w-full hx:h-full hx:bg-gradient-to-br hx:from-indigo-100 hx:to-purple-200 hx:dark:from-indigo-900 hx:dark:to-purple-900"></div>
+        {{- end }}
+      </div>
+
+      <!-- Content -->
+      <div class="hx:flex hx:flex-col hx:flex-1 hx:p-6">
+
+        <!-- Tags -->
+        {{- with .Params.tags }}
+        <div class="hx:flex hx:flex-wrap hx:gap-2 hx:mb-3">
+          {{- range . }}
+          <span class="hx:text-xs hx:uppercase hx:tracking-wide hx:text-gray-400">{{ . }}</span>
+          {{- end }}
+        </div>
+        {{- end }}
+
+        <!-- Title -->
+        <h3 class="hx:text-xl hx:font-medium hx:text-gray-900 hx:dark:text-gray-100 hx:mb-3 hx:leading-snug">{{ .Title }}</h3>
+
+        <!-- Description -->
+        <p class="hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:leading-relaxed" style="display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;">{{- partial "utils/page-description" . -}}</p>
+
+        <!-- CTA pushed to bottom -->
+        <div class="hx:mt-auto hx:pt-6">
+          <span class="hx:flex hx:items-center hx:gap-1 hx:text-xs hx:font-bold hx:uppercase hx:tracking-widest hx:text-gray-900 hx:dark:text-gray-100">
+            阅读全文
+            <!-- Animated arrow: line grows on hover, then chevron -->
+            <span class="hx:flex hx:items-center hx:overflow-hidden" style="color:#C05030;">
+              <span class="hx:inline-block hx:h-px hx:w-0 hx:group-hover:w-5 hx:transition-all hx:duration-300 hx:ease-in-out hx:align-middle" style="background:#C05030;vertical-align:middle;"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="12" height="12" fill="none" stroke="#C05030" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,2 7,5 3,8"/></svg>
+            </span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+    {{- end }}
+  </div>
+
+</div>
+</div>
+{{ end }}

@@ -1,0 +1,46 @@
+{{ define "main" }}
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-3xl hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+
+        {{- with .Params.cover }}
+        <div class="hx:rounded-2xl hx:overflow-hidden hx:mb-8 hx:aspect-[2/1]">
+          <img src="{{ . }}" alt="{{ $.Title }}" class="hx:w-full hx:h-full hx:object-cover"/>
+        </div>
+        {{- end }}
+
+        {{- with .Params.tags }}
+        <div class="hx:flex hx:flex-wrap hx:gap-1 hx:mb-3">
+          {{- range . }}
+          <span class="hx:text-xs hx:px-2 hx:py-0.5 hx:rounded-full hx:bg-indigo-50 hx:text-indigo-600 hx:dark:bg-indigo-900 hx:dark:text-indigo-300">{{ . }}</span>
+          {{- end }}
+        </div>
+        {{- end }}
+
+        {{ if .Title }}<h1 class="hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>{{ end }}
+
+        <div class="hx:mt-4 hx:mb-8 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2">
+          {{- with .Date }}<span>{{ partial "utils/format-date" . }}</span>{{ end -}}
+          {{- with $.Params.authors -}}
+            <span class="hx:mx-2">·</span>
+            {{- range $i, $author := . -}}
+              {{- if reflect.IsMap $author -}}
+                <span>{{ $author.name }}</span>
+              {{- else -}}
+                <span>{{ $author }}</span>
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        </div>
+
+        <div class="content">{{ .Content }}</div>
+
+        {{- partial "components/last-updated.html" . -}}
+        {{- partial "components/comments.html" . -}}
+      </main>
+    </article>
+  </div>
+{{ end }}

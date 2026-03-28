@@ -70,4 +70,10 @@ layout: hextra-home
     subtitle="真实家庭与学校的经验故事，给予实践中的启发。"
     link="showcase"
   >}}
+  {{< hextra/feature-card
+    title="找专家"
+    icon="office-building"
+    subtitle="如何寻找评估机构、干预专家，就诊前如何准备。"
+    link="experts"
+  >}}
 {{< /hextra/feature-grid >}}

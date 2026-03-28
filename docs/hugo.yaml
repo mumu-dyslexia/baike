@@ -79,9 +79,9 @@ menu:
       name: 英文读写障碍
       pageRef: /english
       weight: 3
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
+    - identifier: experts
+      name: 找专家
+      pageRef: /experts
       weight: 4
     - identifier: showcase
       name: Showcase

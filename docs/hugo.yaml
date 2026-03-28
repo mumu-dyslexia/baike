@@ -38,18 +38,12 @@ languages:
     weight: 4
     title: 读写障碍百科
     params:
-      banner:
-        message: |
-          Hextra **v0.11** 发布啦！🎉 查看[更新内容](/blog/v0.11)
   zh-tw:
     languageName: 繁体中文
     languageCode: zh-TW
     weight: 5
     title: 读写障碍百科
     params:
-      banner:
-        message: |
-          Hextra **v0.11** 發布啦！🎉 查看[更新內容](/blog/v0.11)
 
 module:
   hugoVersion:
@@ -152,10 +146,6 @@ params:
 
   externalLinkDecoration: true
 
-  banner:
-    key: 'announcement-v0.11'
-    message: |
-      Hextra **v0.11** is here! 🎉 Discover [what's new](/blog/v0.11)
 
   navbar:
     displayTitle: true

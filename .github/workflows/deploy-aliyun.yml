@@ -56,9 +56,8 @@ jobs:
           OSS_ACCESS_KEY_ID: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
           OSS_ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
         run: |
-          ossutil cp docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
+          ossutil sync docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
             --endpoint ${{ secrets.OSS_ENDPOINT }} \
-            --recursive \
             --delete \
             --force \
             --jobs 10

@@ -59,8 +59,7 @@ jobs:
           ossutil sync docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
             --endpoint ${{ secrets.OSS_ENDPOINT }} \
             --delete \
-            --force \
-            --jobs 10
+            --force
 
       - name: Install Aliyun CLI
         run: |

@@ -47,17 +47,18 @@ jobs:
 
       - name: Install ossutil
         run: |
-          curl -fL -o ossutil https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil64
-          chmod +x ossutil
-          sudo mv ossutil /usr/local/bin/ossutil
+          curl -fL -o ossutil.zip https://gosspublic.alicdn.com/ossutil/v2/2.1.2/ossutil-2.1.2-linux-amd64.zip
+          unzip ossutil.zip
+          sudo mv ossutil-2.1.2-linux-amd64/ossutil /usr/local/bin/ossutil
 
       - name: Sync to OSS
         env:
           OSS_ACCESS_KEY_ID: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
           OSS_ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
         run: |
-          ossutil sync docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
-            -e ${{ secrets.OSS_ENDPOINT }} \
+          ossutil cp docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
+            --endpoint ${{ secrets.OSS_ENDPOINT }} \
+            --recursive \
             --delete \
             --force \
             --jobs 10

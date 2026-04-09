@@ -58,6 +58,7 @@ jobs:
         run: |
           ossutil sync docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
             --endpoint ${{ secrets.OSS_ENDPOINT }} \
+            --region ${{ secrets.ALIYUN_REGION }} \
             --delete \
             --force
 

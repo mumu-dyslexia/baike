@@ -8,7 +8,8 @@
       "Bash(hugo build:*)",
       "Bash(xargs sed:*)",
       "WebFetch(domain:faculty.ecnu.edu.cn)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(find:*)"
     ]
   }
 }

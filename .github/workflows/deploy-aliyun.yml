@@ -1,0 +1,87 @@
+name: Deploy Aliyun Production
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: "deploy-aliyun"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: prod
+    env:
+      HUGO_VERSION: 0.147.7
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+
+      - name: Setup Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Build site
+        working-directory: docs
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --minify --baseURL "${{ secrets.SITE_BASE_URL }}"
+
+      - name: Install ossutil
+        run: |
+          curl -o ossutil https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil64
+          chmod +x ossutil
+          sudo mv ossutil /usr/local/bin/ossutil
+
+      - name: Configure ossutil
+        run: |
+          ossutil config \
+            -e ${{ secrets.OSS_ENDPOINT }} \
+            -i ${{ secrets.ALIYUN_ACCESS_KEY_ID }} \
+            -k ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }} \
+            -L CH
+
+      - name: Sync to OSS
+        run: |
+          ossutil sync docs/public/ oss://${{ secrets.OSS_BUCKET }}/ \
+            --delete \
+            --force \
+            --jobs 10
+
+      - name: Install Aliyun CLI
+        run: |
+          curl -o aliyun.tgz https://aliyuncli.alicdn.com/aliyun-cli-linux-latest-amd64.tgz
+          tar -xzf aliyun.tgz
+          sudo mv aliyun /usr/local/bin/aliyun
+
+      - name: Configure Aliyun CLI
+        run: |
+          aliyun configure set \
+            --profile default \
+            --access-key-id ${{ secrets.ALIYUN_ACCESS_KEY_ID }} \
+            --access-key-secret ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }} \
+            --region ${{ secrets.ALIYUN_REGION }}
+
+      - name: Flush CDN cache
+        run: |
+          aliyun cdn RefreshObjectCaches \
+            --ObjectPath "${{ secrets.CDN_DOMAIN }}/" \
+            --ObjectType Directory

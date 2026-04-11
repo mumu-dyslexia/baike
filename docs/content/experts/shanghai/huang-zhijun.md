@@ -1,5 +1,5 @@
 ---
-title: 黄志军
+title: 黄志军教授
 weight: 1
 ---
 

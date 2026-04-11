@@ -9,7 +9,10 @@
       "Bash(xargs sed:*)",
       "WebFetch(domain:faculty.ecnu.edu.cn)",
       "Bash(curl:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(find /Users/xiaoronglv/Workspace/dyslexia-baike/docs -type f \\\\\\(-name *.jpg -o -name *.jpeg -o -name *.png -o -name *.webp \\\\\\))",
+      "WebFetch(domain:psych.bnu.edu.cn)",
+      "WebFetch(domain:www.psy.pku.edu.cn)"
     ]
   }
 }

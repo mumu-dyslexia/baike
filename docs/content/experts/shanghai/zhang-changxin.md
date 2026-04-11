@@ -25,3 +25,13 @@ weight: 2
 - 学习困难儿童评估与干预
 - Assessment and Intervention for Children with Learning Disabilities（全英语）
 - 特殊儿童心理测量与评估
+
+## 读写障碍爱心义诊
+
+华东师范大学教育学部专家团队经常在寒暑假联合上海少年儿童图书馆，面向读写障碍儿童家庭开展免费的阅读评估和干预。活动信息会在上海少年儿童图书馆的官方网站和微信公众号上发布，家长可以关注以获取最新的报名和参与方式。
+
+![读写障碍爱心义诊](/images/expert/上海少年儿童图书馆.jpg)
+
+往期活动
+
+- [2025 童享阳光 | 阅路启明星，5天阅读夏令营令你读写“无障碍”](https://mp.weixin.qq.com/s/X8i9gKAiFdeJGRzK02JkOA)

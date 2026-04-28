@@ -32,20 +32,11 @@ weight: 1
 - 2005 年 9 月–2006 年 6 月：哈佛大学心理学系博士后
 - 2012 年 9 月–2013 年 6 月：Fulbright Scholar at Vanderbilt（美国范德比尔特大学富布赖特学者）
 
-## 研究方向
-
-实验室使用横断和追踪设计、认知行为实验、脑电和磁共振成像技术，研究集中于以下三个方面：
-
-1. 探讨早期语言发展与后期阅读发展之间的关系，关注词物联结能力对未来阅读发展中形音联结能力的预测
-2. 探讨早期一般认知能力、元语言学技能、数量知识以及数感能力对儿童阅读和数学学业成绩的预测
-3. 探讨汉语儿童一语和二语阅读及阅读障碍的神经机制
-
 ## 社会兼职
 
 - BBB Charity Foundation, Research Panelist（BBB 慈善基金会研究委员会成员）
 - 新加坡教育部华文阅读障碍项目海外顾问
 - 2011 年至今：Member of board, Division of Brain Sciences and Education, Chinese Society of Education（中国教育学会脑科学与教育分会理事）
-- 北京大学–香港理工大学儿童发展与学习研究中心联络人
 - Editorial Board: Annals of Dyslexia (International Dyslexia Association)（美国国际阅读障碍协会《阅读障碍年刊》编委）
 - 担任多个国际期刊及中文期刊审稿人
 

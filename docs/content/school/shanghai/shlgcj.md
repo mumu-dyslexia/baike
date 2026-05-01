@@ -85,3 +85,5 @@ weight: 3
 1. [百度百科](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%88%9D%E7%BA%A7%E4%B8%AD%E5%AD%A6/534753)
 
 2. [2026年4月29日，融合教育背景下学习困难学生多模态支持研讨活动](https://mp.weixin.qq.com/s/pF4xZ8JoTUhhqKLvWDt92A)
+
+3. [解码·赋能——融合教育背景下学习困难学生多模态支持](https://live.yanxiu.com/lv2/program/672145541258223624/detail)

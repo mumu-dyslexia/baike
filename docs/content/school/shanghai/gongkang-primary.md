@@ -83,4 +83,4 @@ weight: 1
 ## 参考资料
 
 1. [百度百科](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%85%B1%E5%BA%B7%E5%B0%8F%E5%AD%A6/53972545)
-2. [2026年4月29日，融合教育背景下学习困难学生多模态支持研讨活动](https://mp.weixin.qq.com/s/pF4xZ8JoTUhhqKLvWDt92A)
+2. [2026年4月29日，融合教育背景下学习困难学生多模态支持研讨活动](https://live.yanxiu.com/lv2/program/672145541258223624/detail)

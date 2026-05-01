@@ -82,4 +82,4 @@ weight: 2
 
 ## 参考资料
 
-1. [直播预告｜4月29日，融合教育背景下学习困难学生多模态支持研讨活动](https://mp.weixin.qq.com/s/pF4xZ8JoTUhhqKLvWDt92A)
+1. [2026年4月29日，融合教育背景下学习困难学生多模态支持研讨活动](https://mp.weixin.qq.com/s/pF4xZ8JoTUhhqKLvWDt92A)

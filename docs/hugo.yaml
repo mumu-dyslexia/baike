@@ -91,12 +91,16 @@ menu:
       name: Showcase
       pageRef: /showcase
       weight: 6
+    - identifier: help
+      name: 寻求帮助
+      pageRef: /help
+      weight: 7
     - identifier: about
       name: About
       pageRef: /about
-      weight: 7
-    - name: Search
       weight: 8
+    - name: Search
+      weight: 9
       params:
         type: search
 

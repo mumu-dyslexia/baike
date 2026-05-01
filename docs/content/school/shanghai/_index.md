@@ -12,5 +12,6 @@ sidebar:
 
 {{< cards >}}
 {{< card link="gongkang-primary" title="共康小学" subtitle="静安区" >}}
-{{< card link="rihui-primary" title="日辉新村小学" subtitle="徐汇区" >}}
+{{< card link="rihui-primary" title="日晖新村小学" subtitle="徐汇区" >}}
+{{< card link="shlgcj" title="上海理工大学附属初级中学" subtitle="杨浦区" >}}
 {{< /cards >}}

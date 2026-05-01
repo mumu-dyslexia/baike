@@ -83,16 +83,20 @@ menu:
       name: 找专家
       pageRef: /experts
       weight: 4
+    - identifier: school
+      name: 找学校
+      pageRef: /school
+      weight: 5
     - identifier: showcase
       name: Showcase
       pageRef: /showcase
-      weight: 5
+      weight: 6
     - identifier: about
       name: About
       pageRef: /about
-      weight: 6
-    - name: Search
       weight: 7
+    - name: Search
+      weight: 8
       params:
         type: search
 

@@ -12,7 +12,17 @@
       "Bash(find:*)",
       "Bash(find /Users/xiaoronglv/Workspace/dyslexia-baike/docs -type f \\\\\\(-name *.jpg -o -name *.jpeg -o -name *.png -o -name *.webp \\\\\\))",
       "WebFetch(domain:psych.bnu.edu.cn)",
-      "WebFetch(domain:www.psy.pku.edu.cn)"
+      "WebFetch(domain:www.psy.pku.edu.cn)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(npx playwright *)",
+      "Bash(node *)",
+      "Bash(npm ls *)",
+      "Bash(git:*)",
+      "Bash(npm audit *)",
+      "Bash(pkill -f \"hugo server\")",
+      "WebFetch(domain:baike.baidu.com)",
+      "WebFetch(domain:rxxx.xhedu.sh.cn)"
     ]
   }
 }

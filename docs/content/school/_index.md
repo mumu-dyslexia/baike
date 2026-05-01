@@ -1,6 +1,7 @@
 ---
 linkTitle: "找学校"
 title: 找学校
+weight: 4
 type: docs
 cascade:
   type: docs

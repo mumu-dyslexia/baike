@@ -1,6 +1,9 @@
 ---
 title: 关于读写障碍百科
+weight: 99
 toc: false
+sidebar:
+  exclude: true
 ---
 
 你好，我是沐沐爸爸。

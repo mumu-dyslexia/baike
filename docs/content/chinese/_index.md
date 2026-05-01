@@ -1,6 +1,7 @@
 ---
 linkTitle: "中文读写障碍"
 title: 中文读写障碍
+weight: 1
 type: docs
 cascade:
   type: docs

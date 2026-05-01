@@ -1,6 +1,7 @@
 ---
 linkTitle: "英文读写障碍"
 title: English Dyslexia
+weight: 2
 type: docs
 cascade:
   type: docs

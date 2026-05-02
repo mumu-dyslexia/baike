@@ -17,4 +17,5 @@ cascade:
 {{< card link="shanghai" title="上海" icon="office-building" subtitle="复旦儿科医院等" >}}
 {{< card link="shenzhen" title="深圳" icon="office-building" subtitle="深圳儿童医院等" >}}
 {{< card link="nanjing" title="南京" icon="office-building" subtitle="南京妇幼保健院等" >}}
+{{< card link="chengdu" title="成都" icon="office-building" subtitle="华西第二医院学习困难门诊" >}}
 {{< /cards >}}

@@ -1,0 +1,14 @@
+.content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  font-size: var(--hx-text-xl);
+  line-height: var(--hx-text-xl--line-height);
+}
+
+.content :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  font-size: var(--hx-text-lg);
+  line-height: var(--hx-text-lg--line-height);
+}
+
+.content :where(h4):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  font-size: var(--hx-text-base);
+  line-height: var(--hx-text-base--line-height);
+}

@@ -35,16 +35,15 @@ weight: 1
 
 ## 就诊信息
 
-**科室**：儿内科 — 康复医学科
+**科室**：康复科
 
 **挂号方式**：
 
-进入华西妇幼健康门户--预约挂号--儿内科--康复医学科--选择医生挂号。
+进入华西妇幼健康门户--预约挂号--康复科--儿童康复门诊--选择医生挂号。
 
 <div style="display: flex; gap: 8px; justify-content: center; background-color: #f0fdf4; padding: 12px; border-radius: 8px;">
   <img src="/images/expert/huaxi-second-hospital-1.png" alt="华西第二医院学习困难门诊" style="width: 33%; border-radius: 4px;" />
-  <img src="/images/expert/huaxi-second-hospital-2.png" alt="华西第二医院挂号方式" style="width: 33%; border-radius: 4px;" />
-  <img src="/images/expert/huaxi-second-hospital-3.webp" alt="华西第二医院就诊指南" style="width: 33%; border-radius: 4px;" />
+  <img src="/images/expert/huaxi-second-hospital-4.png" alt="华西第二医院挂号方式" style="width: 33%; border-radius: 4px;" />
 </div>
 
 ![华西第二医院](/images/expert/huaxi-second-hospital.png)
